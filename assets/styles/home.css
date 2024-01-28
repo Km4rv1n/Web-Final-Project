@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Fix horizontal scrolling issue */
+    font-family: 'Arial', sans-serif;
+ }
+
+ 
+ .background-image {
+    background-image: url('../images/Restaurant.jpg'); /* Replace with the path to your background photo */
+    background-size: 100% 150%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* 100% viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+ }
+
+ .header {
+    margin-top: -100px; 
+    text-align: center;
+ }
+
+ .header h1 {
+    font-size: 48px;
+    font-family: Georgia, serif;
+    color: #ffcc00;  
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+ }
+
+ .header h3 {
+    font-size: 24px;
+    font-family: Georgia, serif;
+    /* Add your cool CSS style for h3 here */
+    padding-top: 30px;
+    color: #ffcc00; /* Change to your desired color */
+    text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+ }
+
+ .center-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+ }
+
+ .center-links a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 10px 20px; /* Adjust padding for the button effect */
+    border-radius: 5px; /* Add rounded corners for the button effect */
+    transition: background-color 0.3s ease, color 0.3s ease;
+    margin-bottom: 10px;
+ }
+
+ .center-links a:hover {
+    background-color: #606060; /* Change to your desired hover background color */
+    color: #ffcc00; /* Change to your desired hover text color */
+ }
+
+ 
+    

@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.background-image {
+  background-image: url('../images/Restaurant.jpg'); /* Replace with the path to your background photo */
+  background-size: 100% 150%;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh; /* 100% viewport height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: #fff;
+}
+
+.header {
+  margin-top: 130px; /* Add the desired margin-top value to move the header down */
+  text-align: center;
+}
+
+.header h1 {
+  font-size: 48px;
+  font-family: Georgia, serif;
+  color: #ffcc00;  
+  margin-bottom: 100px;
+  margin-top: -100px;
+  text-shadow: 1px 0 0 #000, 0 -1px 0 #000, 0 1px 0 #000, -1px 0 0 #000;
+}
+
+
+
+.container {
+max-width: 600px;
+margin: 50px auto;
+padding: 20px;
+background-color: black;
+border-radius: 8px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact-info {
+text-align: center;
+}
+
+.contact-info h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.contact-info p , #socialMedia{
+margin: 10px 0;
+}
+
+.contactImage{
+width: 50px;
+height: 50px;
+}
+
+.contactImage:hover{
+transform: scale(1.1);
+transition: transform 0.3s ease;
+
+
+}
